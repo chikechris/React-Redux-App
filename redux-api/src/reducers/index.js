@@ -6,9 +6,8 @@ import {
 
 const initialState = {
   drinks: [],
-  error: ""
-  isFetching: false,
- 
+  error: "",
+  isFetching: false
 };
 
 const reducer = (state = initialState, action) => {
